@@ -11,12 +11,14 @@ body{
 header{
     width: 100vw;
     height: 75vh;
-    background-color: rgb(163, 50, 50);
+    background-image: url(./images/institut-leonard-de-vinci-nouveau-campus.jpg);
+    background-size: cover;
+    background-position: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     .leftPart{
-        width: 30vw;
+        width: 40vw;
         height: 40%;
         display: flex;
         justify-content: space-around;
@@ -32,46 +34,51 @@ header{
             flex-direction: column;
             text-transform: uppercase;
             flex-wrap: nowrap;
+            font-size: 55px;
             .content{
                 display: flex;
                 justify-content: center;
                 align-items: center;
 
                 .iim{
-                    color: orange;
+                    color: #EF7D00;
                 }
                 .bienvenue{
                     color: white;
                 }
             }
             .span{
-                width: 19%;
-                height: 4px;
-                background-color: orange;
+                width: 30%;
+                height: 1px;
+                border: 4px solid #EF7D00;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
             }
         }
         .description{
-            width: 70%;
-            font-size: 20px;
+            width: 50%;
+            font-size: 27px;
             font-weight: 100;
             color: white;
         }
         .savoirPlus{
             width: 40%;
             height: 15%;
-            background-color: orange;
+            background-color: #EF7D00;
             border-radius: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
             text-decoration: none;
             color: white;
+            font-size: 24px;
         }
     }
     .rightPart{
-        width: 25vw;
-        height: 65vh;
-        background-color: red;
+        margin-top: 40vh;
+        width: 20vw;
+        height: 70vh;
+        background-color: white;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -94,13 +101,31 @@ header{
             input{
                 width: 80%;
                 height: 60px;
-                border: 2px solid black;
+                border: 3px solid black;
                 border-radius: 10px;
+                font-size: 24px;
             }
         }
         .headingForm{
-            color: white;
+            color: #EF7D00;
             font-size: 20px;
+            width: 80%;
+            font-size: 28px;
+            text-align: center;
+        }
+
+        .submit{
+            width: 80%;
+            height: 60px;
+            border: 0;
+            background-color: #EF7D00;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
         }
     }
 }
