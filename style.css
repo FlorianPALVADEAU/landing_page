@@ -217,7 +217,7 @@ header .rightPart .submit {
 }
 
 .etudiants .cardContainer .card .img {
-  background-size: 170%;
+  background-size: 175%;
   background-image: url(./images/Screenshot_2.png);
 }
 
@@ -268,7 +268,6 @@ footer .el {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  flex-wrap: wrap;
   cursor: pointer;
 }
 footer .el .span {
