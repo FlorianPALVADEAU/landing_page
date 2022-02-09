@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -6,6 +7,7 @@
 
 body {
   background-color: #F1F1F1;
+  overflow-x: hidden;
 }
 
 header {
@@ -124,6 +126,158 @@ header .rightPart .submit {
   text-decoration: none;
   color: white;
   font-size: 24px;
+}
+
+.formations, .etudiants, .partenaires, .contact {
+  width: 100vw;
+  height: 50vh;
+  margin-top: 20vh;
+  margin-bottom: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30vh;
+}
+.formations h1, .etudiants h1, .partenaires h1, .contact h1 {
+  margin-left: 11vw;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  text-transform: uppercase;
+  flex-wrap: nowrap;
+  font-size: 35px;
+  margin-bottom: 5vh;
+}
+.formations h1 .content, .etudiants h1 .content, .partenaires h1 .content, .contact h1 .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formations h1 .content .iim, .etudiants h1 .content .iim, .partenaires h1 .content .iim, .contact h1 .content .iim {
+  color: #EF7D00;
+}
+.formations h1 .content .bienvenue, .etudiants h1 .content .bienvenue, .partenaires h1 .content .bienvenue, .contact h1 .content .bienvenue {
+  color: black;
+}
+.formations h1 .span, .etudiants h1 .span, .partenaires h1 .span, .contact h1 .span {
+  margin-top: 1vh;
+  width: 10%;
+  height: 1px;
+  border: 4px solid #EF7D00;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.formations .cardContainer, .etudiants .cardContainer, .partenaires .cardContainer, .contact .cardContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 37vh;
+}
+.formations .cardContainer .card, .etudiants .cardContainer .card, .partenaires .cardContainer .card, .contact .cardContainer .card {
+  padding: 35px;
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.formations .cardContainer .card .img, .etudiants .cardContainer .card .img, .partenaires .cardContainer .card .img, .contact .cardContainer .card .img {
+  width: 100%;
+  height: 14000000000px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 50px;
+  background-color: white;
+}
+.formations .cardContainer .card .cardTitle, .etudiants .cardContainer .card .cardTitle, .partenaires .cardContainer .card .cardTitle, .contact .cardContainer .card .cardTitle {
+  font-size: 28px;
+  font-weight: bolder;
+}
+.formations .cardContainer .card .cardDesc, .etudiants .cardContainer .card .cardDesc, .partenaires .cardContainer .card .cardDesc, .contact .cardContainer .card .cardDesc {
+  color: #929292;
+  font-weight: 700;
+}
+
+.formations .cardContainer :nth-child(1) .img {
+  background-image: url(./images/1.png);
+}
+.formations .cardContainer :nth-child(2) .img {
+  background-image: url(./images/2.png);
+}
+.formations .cardContainer :nth-child(3) .img {
+  background-image: url(./images/3.png);
+}
+
+.etudiants .cardContainer .card .img {
+  background-size: 170%;
+  background-image: url(./images/Screenshot_2.png);
+}
+
+.partenaires .cardContainer :nth-child(1) .img {
+  background-image: url(./images/minalogic-member-fr-bnp-paribas.png);
+}
+.partenaires .cardContainer :nth-child(2) .img {
+  background-image: url(./images/logo-Ubisoft.jpg);
+  background-size: 90%;
+}
+.partenaires .cardContainer :nth-child(3) .img {
+  background-image: url(./images/Ministère_des_Armées.png);
+  background-size: 80%;
+}
+
+.contact .cardContainer :nth-child(1) .img {
+  background-image: url(./images/nuSA8oqW_400x400.jpg);
+  background-size: 80%;
+}
+.contact .cardContainer :nth-child(2) .img {
+  background-image: url(./images/comment-utiliser-linkedin.jpg);
+}
+.contact .cardContainer :nth-child(3) .img {
+  background-image: url(./images/1200x630wa.png);
+}
+
+footer {
+  width: 100vw;
+  height: 25vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #343434;
+}
+footer .logoIIM {
+  width: 150px;
+  height: 150px;
+  background-image: url(./images/Logo_IIM_fd_blanc.png);
+  background-size: cover;
+}
+footer .el {
+  width: 15%;
+  height: 10%;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+footer .el .span {
+  margin-top: 1vh;
+  width: 30%;
+  height: 1px;
+  border: 4px solid #EF7D00;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
