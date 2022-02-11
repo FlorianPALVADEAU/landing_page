@@ -23,7 +23,7 @@ header {
 }
 header .leftPart {
   width: 40vw;
-  height: 40%;
+  height: 50%;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -39,6 +39,8 @@ header .leftPart h1 {
   text-transform: uppercase;
   flex-wrap: nowrap;
   font-size: 55px;
+  margin-bottom: 5vh;
+  margin-top: 10vh;
 }
 header .leftPart h1 .content {
   display: flex;
@@ -63,10 +65,11 @@ header .leftPart .description {
   font-size: 27px;
   font-weight: 100;
   color: white;
+  margin-bottom: 5vh;
 }
 header .leftPart .savoirPlus {
   width: 40%;
-  height: 15%;
+  padding: 15px;
   background-color: #EF7D00;
   border-radius: 20px;
   display: flex;
@@ -77,9 +80,9 @@ header .leftPart .savoirPlus {
   font-size: 24px;
 }
 header .rightPart {
-  margin-top: 40vh;
+  margin-top: 45vh;
   width: 23vw;
-  height: 70vh;
+  height: 75vh;
   background-color: white;
   display: flex;
   justify-content: center;
@@ -108,6 +111,11 @@ header .rightPart .input input {
   border-radius: 10px;
   font-size: 24px;
 }
+header .rightPart .input ::placeholder {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #aaaaaa;
+}
 header .rightPart .headingForm {
   color: #EF7D00;
   font-size: 20px;
@@ -127,12 +135,13 @@ header .rightPart .submit {
   text-decoration: none;
   color: white;
   font-size: 24px;
+  margin-top: 20px;
 }
 
 .formations, .etudiants, .partenaires, .contact {
   width: 100vw;
   height: 50vh;
-  margin-top: 20vh;
+  margin-top: 25vh;
   margin-bottom: 10vh;
   display: flex;
   justify-content: center;
@@ -197,6 +206,7 @@ header .rightPart .submit {
   background-position: center;
   padding-top: 50px;
   background-color: white;
+  margin-bottom: 2vh;
 }
 .formations .cardContainer .card .cardTitle, .etudiants .cardContainer .card .cardTitle, .partenaires .cardContainer .card .cardTitle, .contact .cardContainer .card .cardTitle {
   font-size: 28px;
@@ -273,7 +283,29 @@ footer .el {
 }
 footer .el .span {
   margin-top: 1vh;
-  width: 30%;
+  width: 45%;
+  height: 1px;
+  border: 4px solid #EF7D00;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+footer :nth-child(3) {
+  width: 20%;
+}
+footer :nth-child(3) .span {
+  margin-top: 1vh;
+  width: 70%;
+  height: 1px;
+  border: 4px solid #EF7D00;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+footer :nth-child(4) {
+  width: 20%;
+}
+footer :nth-child(4) .span {
+  margin-top: 1vh;
+  width: 40%;
   height: 1px;
   border: 4px solid #EF7D00;
   border-top-right-radius: 5px;

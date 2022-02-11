@@ -1,0 +1,34 @@
+<mjml owa="desktop">
+  <mj-head>
+    <mj-font name="Trade Gothic" href="https://ux-gannnd.projets.iim.fr/font/font.css" />
+  </mj-head>
+  <mj-body width="612px">
+    <mj-hero mode="fluid-height" background-url="https://ux-gannnd.projets.iim.fr/img/campus-img.png" background-color="#2a3448" padding="150px 0" background-position="center">
+      <mj-text align="center" font-size="24px" font-weight="bold" color="#fff" font-family="Trade Gothic, Arial">Merci pour votre inscription ! Louis 🤘</mj-text>
+    </mj-hero>
+    <mj-section background-color="#EF7D00" full-width>
+      <mj-column width="612px">
+        <mj-text align="center" color="#fff" font-size="24px" font-family="Trade Gothic, Arial">Quelques exemples de nos formations ! 📼</mj-text>
+      </mj-column>
+      <mj-section padding-top="32px">
+        <mj-column width="185px">
+          <mj-image padding="5px 5px" border="5px solid #fff" border-radius="12px" src="https://ux-gannnd.projets.iim.fr/img/KxgSzEAYAZk-HD.jpeg"></mj-image>
+          <mj-text align="center" padding-top="5px" line-height="1.4" font-size="15px" font-family="Trade Gothic, Arial" font-weight="bold" color="#fff">Comment fonction Tinder ?</mj-text>
+        </mj-column>
+        <mj-column width="10px"></mj-column>
+        <mj-column width="185px">
+          <mj-image padding="5px 5px" border="5px solid #fff" border-radius="12px" src="https://ux-gannnd.projets.iim.fr/img/8onXK8mpbs4-HD.jpeg"></mj-image>
+          <mj-text align="center" padding-top="5px" line-height="1.4" padding-left="15px" padding-right="15px" font-size="15px" font-family="Trade Gothic, Arial" font-weight="bold" color="#fff">Faire une application de trading.</mj-text>
+        </mj-column>
+        <mj-column width="10px"></mj-column>
+        <mj-column width="185px">
+          <mj-image padding="5px 5px" border="5px solid #fff" border-radius="12px" src="https://ux-gannnd.projets.iim.fr/img/_Q9qoRRPRYM-HD.jpeg"></mj-image>
+          <mj-text align="center" padding-top="5px" line-height="1.4" font-size="15px" font-family="Trade Gothic, Arial" font-weight="bold" color="#fff">Coder Instagram en 72h.</mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-column width="600px">
+        <mj-button background-color="white" color="black" font-family="Trade Gothic, Arial" font-weight="bold" border-radius="19px" align="center" href="https://www.google.fr">ALLER SUR LE SITE !</mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
