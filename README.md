@@ -1,5 +1,5 @@
 # Hey ! This is our work on this UX-UI week !
-@Elyesv @LouisPerre @Adelktr
+[@Elyesv][i33] [@LouisPerre][i19] [@Adelktr][i21]
 
 We had to realize a full autimatic mailing system for the next year's new student's hiring campaign.
 This work has been discomposed in 3 main steps :
@@ -21,3 +21,10 @@ Appart from that we also coded the landing page in ``scss``, ``javascript`` and 
 
 This last part was probably the longest to realize because we encountered many problems such as creating account with the informations that the user put in the form's fields,
 but we finally succeeded to deploy it successfully with a complete opperationnal mailing system.
+
+
+
+
+[i19]: https://github.com/LouisPerre
+[i21]: https://github.com/Adelktr
+[i33]: https://github.com/Elyesv
