@@ -110,11 +110,10 @@ header{
                 border: 3px solid black;
                 border-radius: 10px;
                 font-size: 24px;
-
+                padding-left: 20px;
                 
             }
             ::placeholder{
-                padding-left: 20px;
                 font-size: 16px;
                 color: rgb(170, 170, 170);
             }
@@ -208,8 +207,10 @@ header{
             flex-direction: column;
             
             .img{
-                width: 100%;
-                height: 14000000000px;
+                width: 70%;
+                height: 100%;
+                padding-top: 150px;
+                padding-bottom: 150px;
                 background-size: cover;
                 background-repeat: no-repeat;
                 background-position: center;
@@ -242,6 +243,7 @@ header{
 
         :nth-child(2){
             .img{
+                margin-left: 1vw;
                 background-image: url(./images/2.png);
             }
         }
@@ -262,6 +264,11 @@ header{
                 background-image: url(./images/Screenshot_2.png);
             }
         }
+        :nth-child(2){
+            .img{
+                margin-left: 1vw;
+            }
+        }
     }
 }
 
@@ -269,21 +276,26 @@ header{
     .cardContainer{
         :nth-child(1){
             .img{
+                background-size: 80%;
                 background-image: url(./images/minalogic-member-fr-bnp-paribas.png);
+                width: 70%;
             }
         }
         
         :nth-child(2){
             .img{
+                margin-left: 2vw;
                 background-image: url(./images/logo-Ubisoft.jpg);
-                background-size: 90%;
+                background-size: 70%;
+                width: 70%;
             }
         }
         
         :nth-child(3){
             .img{
                 background-image: url(./images/Ministère_des_Armées.png);
-                background-size: 80%;
+                background-size: 60%;
+                width: 70%;
             }
         }
     }
@@ -292,21 +304,28 @@ header{
 .contact{
     .cardContainer{
         :nth-child(1){
+            
             .img{
                 background-image: url(./images/nuSA8oqW_400x400.jpg);
-                background-size: 80%;
+                background-size: 70%;
+                width: 70%;
             }
         }
         
         :nth-child(2){
+            
             .img{
+                margin-left: 2vw;
                 background-image: url(./images/comment-utiliser-linkedin.jpg);
+                width: 70%;
             }
         }
         
         :nth-child(3){
+            
             .img{
                 background-image: url(./images/1200x630wa.png);
+                width: 70%;
             }
         }
     }

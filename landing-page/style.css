@@ -110,9 +110,9 @@ header .rightPart .input input {
   border: 3px solid black;
   border-radius: 10px;
   font-size: 24px;
+  padding-left: 20px;
 }
 header .rightPart .input ::placeholder {
-  padding-left: 20px;
   font-size: 16px;
   color: #aaaaaa;
 }
@@ -199,8 +199,10 @@ header .rightPart .submit {
   flex-direction: column;
 }
 .formations .cardContainer .card .img, .etudiants .cardContainer .card .img, .partenaires .cardContainer .card .img, .contact .cardContainer .card .img {
-  width: 100%;
-  height: 14000000000px;
+  width: 70%;
+  height: 100%;
+  padding-top: 150px;
+  padding-bottom: 150px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -221,6 +223,7 @@ header .rightPart .submit {
   background-image: url(./images/1.png);
 }
 .formations .cardContainer :nth-child(2) .img {
+  margin-left: 1vw;
   background-image: url(./images/2.png);
 }
 .formations .cardContainer :nth-child(3) .img {
@@ -231,28 +234,40 @@ header .rightPart .submit {
   background-size: 175%;
   background-image: url(./images/Screenshot_2.png);
 }
+.etudiants .cardContainer :nth-child(2) .img {
+  margin-left: 1vw;
+}
 
 .partenaires .cardContainer :nth-child(1) .img {
+  background-size: 80%;
   background-image: url(./images/minalogic-member-fr-bnp-paribas.png);
+  width: 70%;
 }
 .partenaires .cardContainer :nth-child(2) .img {
+  margin-left: 2vw;
   background-image: url(./images/logo-Ubisoft.jpg);
-  background-size: 90%;
+  background-size: 70%;
+  width: 70%;
 }
 .partenaires .cardContainer :nth-child(3) .img {
   background-image: url(./images/Ministère_des_Armées.png);
-  background-size: 80%;
+  background-size: 60%;
+  width: 70%;
 }
 
 .contact .cardContainer :nth-child(1) .img {
   background-image: url(./images/nuSA8oqW_400x400.jpg);
-  background-size: 80%;
+  background-size: 70%;
+  width: 70%;
 }
 .contact .cardContainer :nth-child(2) .img {
+  margin-left: 2vw;
   background-image: url(./images/comment-utiliser-linkedin.jpg);
+  width: 70%;
 }
 .contact .cardContainer :nth-child(3) .img {
   background-image: url(./images/1200x630wa.png);
+  width: 70%;
 }
 
 footer {
